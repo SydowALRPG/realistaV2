@@ -131,7 +131,7 @@ var X = -118.8;
 var Y = 30.8;
 L.marker([Y, X], {
   icon: customIcon("sagov", "city")
-}).addTo(Icons["🏛 Public Services"]).bindPopup("<img width='100px' style='display: block;width: 50%;margin-left:auto;margin-right:auto;min-width:150px;' src='/IconsLore/city/sagov.png' /><h2 style='text-align:center;'>City Hall</h2><p></p>");
+}).addTo(Icons["🏛 Public Services"]).bindPopup("<img width='100px' style='display: block;width: 50%;margin-left:auto;margin-right:auto;min-width:150px;' src='/IconsLore/city/lsgov.png' /><h2 style='text-align:center;'>City Hall</h2><p></p>");
 
 
 /////////////////////////////////////////////////////////////////////////////
