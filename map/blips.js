@@ -123,7 +123,7 @@ L.marker([Y, X], {
 
 // PUBLIC - LSPD - Vespucci
 var X = 28.3;
-var Y = -115,6;
+var Y = -115.6;
 L.marker([Y, X], {
   icon: customIcon("lspd", "city")
 }).addTo(Icons["🏛 Public Services"]).bindPopup("<img width='100px' style='display: block;width: 50%;margin-left:auto;margin-right:auto;min-width:150px;' src='/IconsLore/city/lspd.png' /><h2 style='text-align:center;'> LSPD </h2><p>Vespucci - Los Santos Police Department</p>");
