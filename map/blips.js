@@ -51,7 +51,7 @@ var BlipsEvents = L.layerGroup();
 var Icons = {
   "🏛 Public Services": BlipsPublic,
 
-  "🏢 Industries": BlipsIndustries,
+  "🏢 Business": BlipsBusiness,
   "🏭 Factories": BlipsFactories,
 
   "🤝 Services": BlipsServices,
@@ -154,14 +154,14 @@ var X = -127.5;
 var Y = 10.8;
 L.marker([Y, X], {
   icon: customIcon("autos", "business")
-}).addTo(Icons["🏢 Industries"]).bindPopup("<img width='100px' style='display: block;width: 50%;margin-left:auto;margin-right:auto;min-width:150px;' src='/IconsLore/business/autos.png' /><h2 style='text-align:center;'>Autohaus Goatzel</h2><p></p>");
+}).addTo(Icons["🏢 Business"]).bindPopup("<img width='100px' style='display: block;width: 50%;margin-left:auto;margin-right:auto;min-width:150px;' src='/IconsLore/business/autos.png' /><h2 style='text-align:center;'>Autohaus Goatzel</h2><p></p>");
 
 // Business - Torben Towing 
 var X = -93.1;
 var Y = 7.9;
 L.marker([Y, X], {
   icon: customIcon("repair", "business")
-}).addTo(Icons["🏢 Industries"]).bindPopup("<img width='100px' style='display: block;width: 50%;margin-left:auto;margin-right:auto;min-width:150px;' src='/IconsLore/business/repair.png' /><h2 style='text-align:center;'>Werkstatt</h2><p>Torben Towing</p>");
+}).addTo(Icons["🏢 Business"]).bindPopup("<img width='100px' style='display: block;width: 50%;margin-left:auto;margin-right:auto;min-width:150px;' src='/IconsLore/business/repair.png' /><h2 style='text-align:center;'>Werkstatt</h2><p>Torben Towing</p>");
 
 /////////////////////////////////////////////////////////////////////////////
 ///////// 🏭 Factories //////////////////////////////////////////////////////
