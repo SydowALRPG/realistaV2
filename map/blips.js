@@ -38,9 +38,10 @@ var SateliteStyle = L.tileLayer('https://cdn.frvgs.com/map/tiles-satellite/{z}/{
 
 var BlipsGroups = L.layerGroup();
 
+
 var BlipsServices = L.layerGroup();
 var BlipsStore = L.layerGroup();
-var BlipsIndustries = L.layerGroup();
+var BlipsBusiness = L.layerGroup();
 var BlipsFactories = L.layerGroup();
 
 var BlipsEntertainment = L.layerGroup();
@@ -48,7 +49,7 @@ var BlipsSports = L.layerGroup();
 var BlipsEvents = L.layerGroup();
 
 var Icons = {
-  "🏛 Public Services": BlipsPublic,
+ 
 
   "🏢 Business": BlipsBusiness,
   "🏭 Factories": BlipsFactories,
