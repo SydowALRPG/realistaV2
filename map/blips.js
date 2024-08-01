@@ -115,8 +115,8 @@ L.marker([Y, X], {
 }).addTo(Icons["🏛 Public Services"]).bindPopup("<img width='100px' style='display: block;width: 50%;margin-left:auto;margin-right:auto;min-width:150px;' src='/IconsLore/city/lsgov.png' /><h2 style='text-align:center;'> LS GOV</h2><p>Los Santos Government</p>");
 
 // PUBLIC - LSPD - Mission Row
-var X = -100;
-var Y = 18;
+var X = 28.3;
+var Y = -115.6;
 L.marker([Y, X], {
   icon: customIcon("lspd", "city")
 }).addTo(Icons["🏛 Public Services"]).bindPopup("<img width='100px' style='display: block;width: 50%;margin-left:auto;margin-right:auto;min-width:150px;' src='/IconsLore/city/lspd.png' /><h2 style='text-align:center;'> LSPD </h2><p>Mission Row - Los Santos Police Department</p>");
