@@ -49,7 +49,6 @@ var BlipsSports = L.layerGroup();
 var BlipsEvents = L.layerGroup();
 
 var Icons = {
-  "🏴‍☠️ Groups": BlipsGroups,
   "🏛 Public Services": BlipsPublic,
 
   "🏢 Industries": BlipsIndustries,
