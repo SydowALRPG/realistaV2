@@ -37,7 +37,6 @@ var SateliteStyle = L.tileLayer('https://cdn.frvgs.com/map/tiles-satellite/{z}/{
 /////////////////////////////////////////////////////////////////////////////
 
 var BlipsGroups = L.layerGroup();
-var BlipsPublic = L.layerGroup();
 
 var BlipsServices = L.layerGroup();
 var BlipsStore = L.layerGroup();
