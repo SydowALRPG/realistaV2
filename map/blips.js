@@ -12,7 +12,7 @@ var SateliteStyle = L.tileLayer('https://cdn.frvgs.com/map/tiles-satellite/{z}/{
     continuousWorld: false,
     id: 'SateliteStyle map',
   }),
-  AtlasStyle = L.tileLayer('https://cdn.frvgs.com/map//tiles-atlas/{z}/{x}/{y}.png', {
+  AtlasStyle = L.tileLayer('https://i.ibb.co/GPkPZj2/sVTE1Zmv.png', {
     minZoom: 2,
     maxZoom: 6,
     noWrap: true,
